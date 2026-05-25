@@ -1,5 +1,5 @@
 {
-    "name": "andydefer/laravel-eloquent-casts",
+    "name": "andydefer/laravel-casts",
     "description": "Advanced Eloquent casts for Laravel including Money and JSON handling",
     "type": "library",
     "license": "MIT",
