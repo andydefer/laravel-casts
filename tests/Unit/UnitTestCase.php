@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace AndyDefer\LaravelEloquentCasts\Tests\Unit;
+namespace AndyDefer\LaravelCasts\Tests\Unit;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 

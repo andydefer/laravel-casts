@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace AndyDefer\LaravelEloquentCasts\Tests\Unit\Casts;
+namespace AndyDefer\LaravelCasts\Tests\Unit\Casts;
 
-use AndyDefer\LaravelEloquentCasts\Casts\MoneyCast;
-use AndyDefer\LaravelEloquentCasts\Tests\Unit\UnitTestCase;
+use AndyDefer\LaravelCasts\Casts\MoneyCast;
+use AndyDefer\LaravelCasts\Tests\Unit\UnitTestCase;
 use Illuminate\Database\Eloquent\Model;
 use PHPUnit\Framework\Attributes\AllowMockObjectsWithoutExpectations;
 

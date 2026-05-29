@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "AndyDefer\\LaravelEloquentCasts\\": "src/"
+            "AndyDefer\\LaravelCasts\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AndyDefer\\LaravelEloquentCasts\\Tests\\": "tests/"
+            "AndyDefer\\LaravelCasts\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AndyDefer\\LaravelEloquentCasts\\LaravelEloquentCastsServiceProvider"
+                "AndyDefer\\LaravelCasts\\LaravelCastsServiceProvider"
             ]
         }
     },

@@ -45,7 +45,7 @@ Stockez vos prix en centimes (entiers) pour éviter les problèmes de précision
 
 namespace App\Models;
 
-use AndyDefer\LaravelEloquentCasts\Casts\MoneyCast;
+use AndyDefer\LaravelCasts\Casts\MoneyCast;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
@@ -109,7 +109,7 @@ Manipulez naturellement des données JSON en PHP sans avoir à gérer manuelleme
 
 namespace App\Models;
 
-use AndyDefer\LaravelEloquentCasts\Casts\JsonCast;
+use AndyDefer\LaravelCasts\Casts\JsonCast;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model
@@ -234,8 +234,8 @@ composer test
 
 namespace App\Models;
 
-use AndyDefer\LaravelEloquentCasts\Casts\MoneyCast;
-use AndyDefer\LaravelEloquentCasts\Casts\JsonCast;
+use AndyDefer\LaravelCasts\Casts\MoneyCast;
+use AndyDefer\LaravelCasts\Casts\JsonCast;
 use Illuminate\Database\Eloquent\Model;
 
 class Order extends Model
@@ -276,7 +276,7 @@ $expensiveOrders = Order::where('total', '>', 10000)->get();  // > 100.00 €
 
 namespace App\Models;
 
-use AndyDefer\LaravelEloquentCasts\Casts\JsonCast;
+use AndyDefer\LaravelCasts\Casts\JsonCast;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model
@@ -318,8 +318,8 @@ echo $user->getSetting('theme', 'light');  // 'dark'
 
 namespace App\Models;
 
-use AndyDefer\LaravelEloquentCasts\Casts\MoneyCast;
-use AndyDefer\LaravelEloquentCasts\Casts\JsonCast;
+use AndyDefer\LaravelCasts\Casts\MoneyCast;
+use AndyDefer\LaravelCasts\Casts\JsonCast;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model

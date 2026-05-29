@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace AndyDefer\LaravelEloquentCasts;
+namespace AndyDefer\LaravelCasts;
 
 use Illuminate\Support\ServiceProvider;
 
-final class LaravelEloquentCastsServiceProvider extends ServiceProvider
+final class LaravelCastsServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
